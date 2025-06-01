@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: https://github.com/NCP08/my-app.git
+        image: ghcr.io/NCP08/my-app:latest
         ports:
         - containerPort: 8080
